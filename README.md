@@ -6,8 +6,8 @@ vote électronique, e-collecting, chatbot civique, idées citoyennes et inclusio
 ## Structure
 
 - `index.html` - page principale
+- `evoting.html`, `ecollecting.html`, `chatbot.html`, `participation.html`, `inclusion.html` - pages projet
 - `styles.css` - identité visuelle et responsive design
-- `script.js` - onglets interactifs
 - `assets/hero-civic-tech.png` - image de couverture générée pour le projet
 
 ## Publication GitHub Pages
