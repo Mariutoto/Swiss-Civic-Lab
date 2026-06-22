@@ -372,14 +372,6 @@ h2 {
   font-size: 1.08rem;
 }
 
-.test-note {
-  border-left: 4px solid var(--coral);
-  padding: 12px 14px;
-  background: #fff7f4;
-  color: var(--ink) !important;
-  font-weight: 750;
-}
-
 .detail-side {
   padding: 24px;
 }
@@ -453,10 +445,6 @@ ul {
 
 .sources {
   padding-top: 28px;
-}
-
-.project-sources {
-  padding-top: 0;
 }
 
 .source-list {
