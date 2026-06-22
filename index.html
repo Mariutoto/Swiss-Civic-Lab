@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Swiss Civic Lab explore la démocratie numérique en Suisse: vote électronique, e-collecting, IA civique, inclusion numérique et participation citoyenne."
+    />
+    <title>Swiss Civic Lab</title>
+    <link rel="preload" href="assets/hero-civic-tech.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Swiss Civic Lab accueil">
+        <span class="brand-mark">SCL</span>
+        <span>Swiss Civic Lab</span>
+      </a>
+      <nav class="top-nav" aria-label="Navigation principale">
+        <a href="#axes">Axes</a>
+        <a href="#articles">Articles</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" role="img" aria-label="Illustration de démocratie numérique suisse"></div>
+        <div class="hero-content">
+          <p class="kicker">Projet exploratoire pour le Conseil de l'Europe</p>
+          <h1 id="hero-title">Swiss Civic Lab</h1>
+          <p class="hero-lede">
+            Un prototype pour expliquer, comparer et tester les projets de démocratie numérique:
+            e-voting, e-collecting, chatbot civique, inclusion numérique et participation citoyenne.
+          </p>
+          <div class="hero-actions" aria-label="Actions principales">
+            <a class="button primary" href="#axes">Explorer les projets</a>
+            <a class="button secondary" href="#sources">Voir les sources</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro band">
+        <div class="intro-grid">
+          <div>
+            <p class="eyebrow">Pourquoi ce site</p>
+            <h2>Rendre la digitalisation civique lisible, utile et discutable.</h2>
+          </div>
+          <p>
+            L'objectif est de construire un espace clair: chaque sujet aura un court article,
+            des sources, des points clés, puis une partie pratique sur ce que les communes,
+            les citoyens, les écoles ou les institutions peuvent faire concrètement.
+          </p>
+        </div>
+      </section>
+
+      <section id="axes" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Axes de travail</p>
+          <h2>Les chantiers de démocratie numérique</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Axes du projet">
+          <button class="tab is-active" type="button" role="tab" aria-selected="true" data-target="evoting">
+            E-voting
+          </button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-target="ecollecting">
+            E-collecting
+          </button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-target="chatbot">
+            Chatbot civique
+          </button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-target="participation">
+            Idées citoyennes
+          </button>
+          <button class="tab" type="button" role="tab" aria-selected="false" data-target="inclusion">
+            Inclusion
+          </button>
+        </div>
+
+        <div class="project-panel is-active" id="evoting" role="tabpanel">
+          <article>
+            <p class="status">En essais contrôlés</p>
+            <h3>Vote électronique</h3>
+            <p>
+              Le vote électronique revient progressivement en Suisse, avec des cantons pilotes,
+              un cercle d'électeurs limité et une forte exigence de vérifiabilité. Le sujet pose
+              une question simple: comment améliorer l'accès au vote sans fragiliser la confiance?
+            </p>
+            <div class="panel-columns">
+              <div>
+                <h4>Points clés</h4>
+                <ul>
+                  <li>Canal complémentaire au vote par correspondance et à l'urne.</li>
+                  <li>Priorité à la sécurité, à l'auditabilité et à la transparence.</li>
+              <li>Selon les cantons, accès possible pour les Suisses de l'étranger, certains électeurs handicapés ou des communes sélectionnées.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Comment agir</h4>
+                <ul>
+                  <li>Comparer les expériences cantonales et les incidents documentés.</li>
+                  <li>Préparer une fiche claire sur bénéfices, risques et conditions de confiance.</li>
+                  <li>Interviewer communes, cantons, experts sécurité et citoyens.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-panel" id="ecollecting" role="tabpanel" hidden>
+          <article>
+            <p class="status">Feu vert aux essais</p>
+            <h3>Récolte électronique de signatures</h3>
+            <p>
+              L'e-collecting vise à numériser le soutien aux initiatives et référendums, de la
+              signature jusqu'au contrôle. Après le processus préparatoire fédéral, le Parlement
+              a ouvert la voie à des essais de récolte électronique de signatures en juin 2026.
+            </p>
+            <div class="panel-columns">
+              <div>
+                <h4>Points clés</h4>
+                <ul>
+                  <li>Le sujet touche directement aux droits populaires.</li>
+                  <li>Il faut concilier simplicité, identité numérique, égalité d'accès et contrôle.</li>
+                  <li>Les essais pratiques devront clarifier le rôle des cantons et communes.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Comment agir</h4>
+                <ul>
+                  <li>Suivre la plateforme participative fédérale.</li>
+                  <li>Documenter les variantes possibles: signature, validation, comptage.</li>
+                  <li>Créer une page pédagogique sur les garde-fous nécessaires.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-panel" id="chatbot" role="tabpanel" hidden>
+          <article>
+            <p class="status">Prototype IA</p>
+            <h3>Chatbot civique pour communes</h3>
+            <p>
+              Un chatbot civique peut aider les habitants à comprendre les démarches publiques,
+              les votations locales, les horaires, les documents officiels et les services
+              municipaux. Le défi n'est pas seulement technique: il faut une IA fiable, sourcée,
+              contrôlable et inclusive.
+            </p>
+            <div class="panel-columns">
+              <div>
+                <h4>Points clés</h4>
+                <ul>
+                  <li>Réponses basées sur des documents communaux vérifiés.</li>
+                  <li>Traçabilité des sources et limites clairement affichées.</li>
+                  <li>Protection des données et accessibilité dès la conception.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Comment agir</h4>
+                <ul>
+                  <li>Tester un assistant sur quelques pages publiques d'une commune.</li>
+                  <li>Mesurer les erreurs, les questions non répondues et les besoins réels.</li>
+                  <li>Préparer une charte d'usage pour une IA civique sûre.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-panel" id="participation" role="tabpanel" hidden>
+          <article>
+            <p class="status">Participation continue</p>
+            <h3>Proposer ses idées</h3>
+            <p>
+              Au-delà du vote, la démocratie numérique peut ouvrir des espaces où les citoyens
+              proposent des idées, débattent, priorisent des projets et suivent ce que
+              l'administration en fait.
+            </p>
+            <div class="panel-columns">
+              <div>
+                <h4>Points clés</h4>
+                <ul>
+                  <li>Une plateforme utile doit montrer le suivi, pas seulement collecter des avis.</li>
+                  <li>La modération et la représentativité comptent autant que l'interface.</li>
+                  <li>Les communes sont un bon terrain d'expérimentation concret.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Comment agir</h4>
+                <ul>
+                  <li>Créer une carte des outils de participation existants.</li>
+                  <li>Construire un formulaire public simple: idée, problème, lieu, impact.</li>
+                  <li>Publier les réponses institutionnelles et les prochaines étapes.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-panel" id="inclusion" role="tabpanel" hidden>
+          <article>
+            <p class="status">Condition de réussite</p>
+            <h3>Inclusion numérique</h3>
+            <p>
+              La digitalisation civique n'a de valeur que si elle reste accessible. Formation,
+              accompagnement, langage clair, multilinguisme et alternatives non numériques
+              doivent faire partie du projet dès le début.
+            </p>
+            <div class="panel-columns">
+              <div>
+                <h4>Points clés</h4>
+                <ul>
+                  <li>La fracture numérique peut devenir une fracture démocratique.</li>
+                  <li>L'accessibilité doit être mesurée, pas seulement annoncée.</li>
+                  <li>Les associations et communes peuvent jouer un rôle de médiation.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Comment agir</h4>
+                <ul>
+                  <li>Prévoir des ateliers d'aide au numérique civique.</li>
+                  <li>Tester chaque service avec des publics non experts.</li>
+                  <li>Maintenir des voies papier, guichet ou téléphone quand nécessaire.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="articles" class="section articles">
+        <div class="section-heading">
+          <p class="eyebrow">Articles à développer</p>
+          <h2>Première ligne éditoriale</h2>
+        </div>
+        <div class="article-grid">
+          <article class="article-card">
+            <span>01</span>
+            <h3>Où en est vraiment le e-voting en Suisse?</h3>
+            <p>Un état des lieux des cantons pilotes, des bénéfices attendus et des incidents à comprendre.</p>
+          </article>
+          <article class="article-card">
+            <span>02</span>
+            <h3>L'e-collecting peut-il moderniser les droits populaires?</h3>
+            <p>Une fiche sur les signatures numériques, l'identité, le contrôle et les risques d'exclusion.</p>
+          </article>
+          <article class="article-card">
+            <span>03</span>
+            <h3>Un chatbot civique pour répondre sans remplacer l'humain</h3>
+            <p>Un prototype d'assistant communal avec sources, limites, escalade et protection des données.</p>
+          </article>
+          <article class="article-card">
+            <span>04</span>
+            <h3>Comment transformer une idée citoyenne en action locale?</h3>
+            <p>Un parcours simple pour proposer, discuter, prioriser et suivre une idée auprès d'une commune.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="sources" class="section sources">
+        <div class="section-heading">
+          <p class="eyebrow">Base documentaire</p>
+          <h2>Sources de départ</h2>
+        </div>
+        <div class="source-list">
+          <a href="https://www.ta-swiss.ch/fr#societe-de-linformation" target="_blank" rel="noreferrer">
+            TA-SWISS - société de l'information
+          </a>
+          <a href="https://www.ta-swiss.ch/en/digital-democracy" target="_blank" rel="noreferrer">
+            TA-SWISS - Digitalisation and democracy
+          </a>
+          <a href="https://www.avenir-suisse.ch/fr/publication/une-democratie-directe-numerique/" target="_blank" rel="noreferrer">
+            Avenir Suisse - Une démocratie directe numérique
+          </a>
+          <a href="https://www.evoting-info.ch/fr/" target="_blank" rel="noreferrer">
+            Plateforme d'information des cantons sur le vote électronique
+          </a>
+          <a href="https://www.ch.ch/fr/votations-et-elections/vote-electronique/" target="_blank" rel="noreferrer">
+            ch.ch - essais de vote électronique en Suisse
+          </a>
+          <a href="https://www.sbfi.admin.ch/fr/newnsb/vyDaBVhgfb0tWsJy7M6SP" target="_blank" rel="noreferrer">
+            Chancellerie fédérale - processus participatif sur l'e-collecting
+          </a>
+          <a href="https://www.parlament.ch/fr/services/news/Pages/2026/20260615162053447194158159026_bsf122.aspx" target="_blank" rel="noreferrer">
+            Parlement suisse - feu vert aux essais d'e-collecting
+          </a>
+          <a href="https://github.com/swiss/e-collecting" target="_blank" rel="noreferrer">
+            Plateforme GitHub swiss/e-collecting
+          </a>
+          <a href="https://www.adis.ch/fr/alliance-inclusion-numerique-suisse-1.html" target="_blank" rel="noreferrer">
+            Alliance Inclusion Numérique Suisse
+          </a>
+          <a href="https://www.swisssmartmedia.com/produkte/gemeindegpt-die-sichere-ki-losung-fur-ihre-verwaltung/" target="_blank" rel="noreferrer">
+            GemeindeGPT - exemple d'IA pour administrations
+          </a>
+          <a href="https://www.chgemeinden.ch/fr/" target="_blank" rel="noreferrer">
+            Association des Communes Suisses
+          </a>
+          <a href="https://chstiftung.ch/fr/" target="_blank" rel="noreferrer">
+            Fondation ch pour la collaboration confédérale
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Swiss Civic Lab - Prototype GitHub Pages</p>
+      <a href="#top">Retour en haut</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
